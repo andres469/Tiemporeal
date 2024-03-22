@@ -1,0 +1,7 @@
+{
+  "name": "RealDataBase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
