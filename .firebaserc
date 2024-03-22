@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "date-base-3da48": {
+      "hosting": {
+        "app": [
+          "date-base-3da48"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "date-base-3da48"
+  }
+}

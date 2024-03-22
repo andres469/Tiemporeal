@@ -1,27 +1,29 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-toggle {
+  --background-checked: #2ecc71; /* Color de fondo cuando está activado */
+  --background-unchecked: #e74c3c; /* Color de fondo cuando está desactivado */
+  --handle-checked-background: #fff; /* Color del control cuando está activado */
+  --handle-unchecked-background: #fff; /* Color del control cuando está desactivado */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.container {
+  padding: 20px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.room {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
-#container a {
-  text-decoration: none;
+.room-label {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Estilos del cuadrado */
+.cuadrado {
+  width: 200px; /* Anchura del cuadrado */
+  height: 200px; /* Altura del cuadrado */
+  background-color: #3498db; /* Color de fondo predeterminado */
+  margin-top: 20px;
 }
